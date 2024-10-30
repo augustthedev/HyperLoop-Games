@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'ubuntu';
+    url: src="Ubuntu-Regular.ttf"
+    }
+
+body {
+background-color: #26242b;
+font-family: 'ubuntu';
+color: white;
+}
+
+nav {
+    background-color: #45414f; 
+    height: 55px;
+
+}
+nav ul {
+    text-align: center;
+
+}
+nav ul li {
+    list-style-type: none;
+    width: 150px;
+    float: left;
+  
+    }
+ nav ul li a {
+   font-family: 'ubuntu';  
+    text-decoration: none;
+    color: white;
+    line-height: 55px;
+    display: block;
+    position: fixed;
+ }
+li a:hover {
+    background-color: #3c3845;
+}
+
+.bGImage {
+   border: none;    
+        height: 100%;
+        pointer-events: none;
+        position: fixed;
+        top: 0; 
+        z-index: -1;
+}
+
+.VRHEad {
+text-align: center;
+font-family: 'ubuntu';    
+}
